@@ -12,19 +12,32 @@ body {
 }
 
 header{
-  position: fixed;
-  width: 100%;
-  z-index: 3;
+    
+  width: 98%;
+  align-items:center;
 
 }
+h1 {  background-color: lemonchiffon;
+    opacity: 0.6;
+    border-radius: 1em;
+    text-align: center;
+    width: 80%;
+    margin:0 auto;
+}
 
-
+h2 {  background-color: greenyellow;
+    opacity: 0.6;
+    border-radius: 1em;
+    text-align: center;
+    width: 50%;
+    margin:0 auto;
+}
 
 nav {
     background-color: lightslategray;
     opacity: 0.8;
     border-radius: 2em;
-    transform: translateY(-130%);
+    
     transition: all .8s ease-in-out;
 }
 
@@ -98,18 +111,18 @@ text-align: center;
 color: #fff;
 
 }
-.incio{
+.main-container{
     display: flex;
     
     
     
     
 }
-.inicio-container{
+.recomendado-container{
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 44vh);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 44vh);
     row-gap: 1em;
 
 
@@ -158,50 +171,9 @@ footer{
     color: #FFF;
 }
 
-.frame-container{
-    display: flex;
-    height: 95vh;
-    width: 100%; 
-    
-}
 
-iframe {
-    height: 100%;
-    width: 100%;
-    border-style: none;
-}
 
-.close {
-    position: fixed;
-    background-color: firebrick;
-    opacity: 0.5;
-    height:36px;
-    width: 36px;
-    border-radius: 5em;
-    color: #FFF;
-    text-shadow: #000;
-    text-align: center;
-    -ms-text-justify: distribute;
-    font-size: 35px;
-    
-    
- }
- .close:hover{
-    background-color: firebrick;
-    opacity: 1;
-    height:36px;
-    width: 36px;
-    border-radius: 5em;
-    color: #FFF;
-    text-shadow: #000;
-     transition: 1.5S;
- }
- .close p {  
-color: #FFF;
-text-shadow: #000;
-text-anchor: start;
 
-}
 .menu-container{
     margin-left: 40%;
     display: grid;

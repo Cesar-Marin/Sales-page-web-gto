@@ -1,6 +1,7 @@
 html {
-    background-image: radial-gradient(circle at 43.84% -20.44%, #e1fffe 0, #cffffa 8.33%, #b9fff6 16.67%, #a0fcf3 25%, #83f2f0 33.33%, #5de7ee 41.67%, #0cdbed 50%, #00ceed 58.33%, #00c2ee 66.67%, #00b7f1 75%, #00adf3 83.33%, #00a3f6 91.67%, #0099f7 100%);}
-
+    background: url(https://colorineseducacion.com/wp-content/uploads/revslider/splash-creative-light-02-animated/Splash-Creative-Dark-Slider-Background.jpg) no-repeat center center fixed;
+}
+   
 .titles{
     text-align: center;
     color: black;
@@ -21,7 +22,7 @@ html {
     text-align: end;
     color:black;
     text-decoration: none;
-    background-color: rgba(177, 107, 107, 0.5);
+    color: rgba(225, 231, 114, 0.875);
     padding: 5px;
 }
 
@@ -39,8 +40,18 @@ html {
 }
 
 .lost-password-or-user{
-    color: black;
-    background-color: gray;
+    color: rgba(225, 231, 114, 0.875);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.lost-password-or-user:hover {
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
 }
 
 #back-to-main{
@@ -59,6 +70,5 @@ html {
 
 #register-html{
     text-decoration: none;
-    color: red;
+    color: rgba(225, 231, 114, 0.875);
 }
-

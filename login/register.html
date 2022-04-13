@@ -5,38 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/login/css/style.css">
 </head>
 <body>
     <div class="register-register">
     <h1 id="header-register">Registrese en untitle web page. </h1>
     <br>
+    <input id="usuario">Nombre de usuario.
+    <br>
+    <input id="email" type="email">Correo electronico.
+    <br>
     <input id="nombre" >Nombre 
     <br>
     <input id="apellido">Apellido
-    <br>
-    <input id="usuario">Nombre de usuario.
     <br>
     <input id="pais">Pais.
     <br>
     <input id="telefono" type="tel">Telefono.
     <br>
-    <input id="email" type="email">Correo electronico.
-    <br>
     <input id="password" type="password">Contraseña.
     <br>
     <input id="confirm-password" type="password">Confirmar contraseña.
     <br>
-    <input type="submit" value="Registrarse" id="button-register">
+    <form id="register-btn">
+    <button class="btn" id="btn-register" type="submit" value="Registrarse">Registrarse</button>
+    </form>
     </div>
 
     <footer>
         <br>
-        <p id="login"> <span class="login-span"><a href="/login.html">Logear a untitle web page.</a> </span></p>
+        <p id="login"> <span class="login-span"><a href="/login/login.html">Logear a untitle web page.</a> </span></p>
         <br>
-        <a href="/main/index.html" id="index"> Regresar a la pagina principal.</a>
+        <a href="/Index.html" id="index"> Regresar a la pagina principal.</a>
         <br>
-        <p id="terminos">Al registrarte aceptas los <a href="/terms.html">TERMINOS Y CONDICIONES</a>, asi como las politicas de datos,Puedes llegar a recibir notificaciones
+        <p id="terminos">Al registrarte aceptas los <a href="/login/terms.html">TERMINOS Y CONDICIONES</a>, asi como las <a href="/login/politicas-de-pago.html">POLITICAS DE PAGO</a>,Puedes llegar a recibir notificaciones
         Puedes desactivarlas en cualquier momento. </p>
     </footer>
 </body>

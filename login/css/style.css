@@ -4,7 +4,7 @@ html {
    
 .titles{
     text-align: center;
-    color: black;
+    color: rgba(102, 33, 129, 0.7);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -59,16 +59,130 @@ html {
 }
 
 .main-page{
-    color: black;
-    background-color: gray;
+    color: rgba(225, 231, 114, 0.875);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.main-page:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
 }
 
 .register-register{
     text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 #register-html{
     text-decoration: none;
     color: rgba(225, 231, 114, 0.875);
+}
+
+#terminos{
+    text-align: center;
+    color:rgba(50, 252, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#read-terminos{
+    color:rgba(50, 252, 0, 0.8);
+}
+
+#a-login{
+    color: rgba(225, 231, 114, 0.875);
+    text-decoration: none;
+}
+
+#login{
+    text-align: end;
+}
+
+.login-span:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
+}
+
+#index-p{
+    text-align: end;
+}
+
+#index{
+    color: rgba(225, 231, 114, 0.875);
+    text-decoration: none;
+}
+
+#index:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
+}
+
+/*CCS para login/lostpassword-html*/
+
+
+.main{
+    text-align: center;
+    color: rgba(39, 11, 50, 0.7);
+    font-size: large;
+}
+
+#div-support{
+    text-align: center;
+    color: rgba(39, 11, 50, 0.7);
+    font-size: larger;
+}
+
+
+
+#support{
+    color: rgba(39, 11, 50, 0.7);
+}
+
+.in-bot{
+    text-align: end;
+}
+
+#main-page-password{
+    color: rgba(225, 231, 114, 0.875);
+    text-decoration: none;
+    font-size: larger;
+}
+
+#main-page-password:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
+}
+
+#back-to-login-password{
+    text-decoration: none;
+    color: rgba(225, 231, 114, 0.875);
+    font-size: larger;
+}
+
+#back-to-login-password:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
 }

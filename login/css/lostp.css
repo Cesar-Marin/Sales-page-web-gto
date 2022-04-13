@@ -1,0 +1,11 @@
+html {
+    background-image: radial-gradient(circle at 43.84% -20.44%, #e1fffe 0, #cffffa 8.33%, #b9fff6 16.67%, #a0fcf3 25%, #83f2f0 33.33%, #5de7ee 41.67%, #0cdbed 50%, #00ceed 58.33%, #00c2ee 66.67%, #00b7f1 75%, #00adf3 83.33%, #00a3f6 91.67%, #0099f7 100%);
+}
+
+.main{
+    text-align: center;
+}
+
+.in-bot{
+    text-align: right;
+}

@@ -186,3 +186,23 @@ html {
     transition-delay: initial;
     font-size:larger;
 }
+
+/*  CSS para /login/support */
+
+.main-header-sup{
+    text-align: center;
+    color: rgba(39, 11, 50, 0.7);
+}
+
+#h2-support-class{
+    color: azure;
+}
+
+.h-support{
+    color: rgb(210, 208, 138);
+    text-align: justify;
+}
+
+.p-support{
+    text-align: justify;
+}

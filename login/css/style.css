@@ -199,10 +199,80 @@ html {
 }
 
 .h-support{
-    color: rgb(210, 208, 138);
+    color: rgb(255, 255, 255);
     text-align: justify;
 }
 
 .p-support{
     text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration:  none;
+}
+
+#a-lost-my-user-and-email{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+#a-lost-my-password{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+#support-to-login{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: end;
+}
+
+#support-back-to-login{
+    color: rgb(255, 255, 255);
+    text-align: end;
+}
+
+#support-to-login:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
+}
+
+/*  CCS para login/terms.html */
+
+#h1-terms{
+    text-align: center;
+}
+
+#p-terms{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.footer-term{
+    text-align: end;
+}
+
+#terms-to-register{
+    text-align: end;
+    color: rgb(255, 255, 255);
+}
+
+#a-terms{
+    text-align: end;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#a-terms:hover{
+    background-color:lightslategray;
+    opacity: 0.98;
+    border-radius: 2em;
+    transition-duration: 1s;
+    transition-delay: initial;
+    font-size:larger;
 }

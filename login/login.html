@@ -17,19 +17,36 @@
         Tenga un excelente dia.
     </h2>
 </div>
+<form id="formulario">
+    <div class="user-and-password" id="u-and-p">
+        <span id="enter-user">Usuario o correo electronico</span>
+        <br>
+        <input type="email" id="email" >
+        <br>
+        <span id="enter-password">Contraseña</span>
+        <br>
+        <input type="password" id="password">
+        <br>
+        <button class="btn" type="submit" id="btn-login">Entrar</button> 
+        <button 
+        id="resetBtn" 
+        class="w-full bg-green-600 px-2 py-5 text-white items-center uppercase font-bold items-center flex justify-center" 
+        type="submit"
+    >Reiniciar
+            <i class="material-icons right ml-3">todo</i>
+    </button>
+    </div>
+</form>
 
-<div class="user-and-password" id="u-and-p">
-    <span id="enter-user">Usuario o correo electronico</span>
-    <br>
-    <input type="email" id="email" >
-    <br>
-    <span id="enter-password">Contraseña</span>
-    <br>
-    <input type="password" id="password">
-    <br>
-        <form id="formulario">
-    <button class="btn" type="submit" id="btn-login">Entrar</button> 
-        </form>
+<div  id="spinner">
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+    </div>
 </div>
 
     <br>
@@ -48,6 +65,6 @@
         <a href="/Index.html" class="main-page">Regresar a la pagina principal.</a>
     </div>
     </footer>
+    <script src="/login/js/app.js"></script>
 </body>
-   
 </html>

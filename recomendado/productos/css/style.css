@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(46, 74, 86);
+}
+
+.h1{
+    color: rgba(241, 231, 130, 0.914);
+    text-align: center;
+}
+
+.h2{
+    color: rgba(241, 231, 130, 0.914);
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}
+
+.div{
+    text-align: end;
+    text-decoration: none;
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+    color: rgba(241, 231, 130, 0.914);
+    font-size: large;
+}
+
+.parrafo{
+    color: rgba(241, 231, 130, 0.914);
+    text-align: center;
+    font-size: large;
+}
+
+.parrafo-grande{
+    color: rgb(255, 227, 70);
+    text-align: center;
+    font-size: x-large;
+}
+
+.contactanos{
+    color: rgba(241, 231, 130, 0.914);
+    text-align: center;
+}

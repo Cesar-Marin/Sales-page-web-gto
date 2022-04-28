@@ -27,13 +27,12 @@ h1 {  background-color: lemonchiffon;
     margin:0 auto;
 }
 
-h2 {  background-color: greenyellow;
+h2 {  background-color: lemonchiffon;
     opacity: 0.6;
     border-radius: 1em;
     text-align: center;
     width: 50%;
     margin:0 auto;
-    Color: #FFF;
 }
 h3 {  background-color: royalblue;
     opacity: 0.6;
